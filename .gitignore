@@ -1,0 +1,7 @@
+﻿.vs/
+Bin/
+packages/
+packages.config
+Tutor.sln
+Tutor2.sln
+Web.config

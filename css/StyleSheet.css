@@ -1,0 +1,139 @@
+<<<<<<< HEAD
+﻿
+
+body, html {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+.header {
+    background-color: #9a99fb;
+    color: black;
+    text-align: center;
+    padding: 20px;
+    font-size: 40px;
+    font-family: "Times New Roman", Times, serif;
+}
+
+.navbar {
+    <!-- position: fixed; -->
+    top: 0;
+    width: 100%;
+    background-color: #807eff;
+    display: flex; /* Use Flexbox */
+    justify-content: center; /* Center items horizontally */
+    align-items: center; /* Center items vertically */
+    padding: 10px 0;
+    z-index: 1000;
+}
+
+/* Style the links inside the navigation bar */
+    .navbar a {
+        color: black;
+        text-align: center;
+        padding: 14px 20px;
+        text-decoration: none;
+    }
+
+    /* Change link color on hover */
+    .navbar a:hover {
+        background-color: #575757;
+    }
+
+/* Add some padding to the sections to account for the fixed navbar */
+.section {
+    padding: 80px 20px; /* Top padding to prevent overlap with the navbar */
+    margin-top: 40px;
+}
+
+/* Add a background to sections for visibility */
+.rates {
+    background-color: #f4f4f4;
+}
+
+.subjects {
+    background-color: #eaeaea;
+}
+
+.experience {
+    background-color: #dcdcdc;
+}
+
+=======
+﻿
+
+body, html {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+.header {
+    background-color: #9a99fb;
+    color: black;
+    text-align: center;
+    padding: 20px;
+    font-size: 40px;
+    font-family: "Times New Roman", Times, serif;
+}
+
+.navbar {
+    <!-- position: fixed; -->
+    top: 0;
+    width: 100%;
+    background-color: #807eff;
+    display: flex; /* Use Flexbox */
+    justify-content: center; /* Center items horizontally */
+    align-items: center; /* Center items vertically */
+    padding: 10px 0;
+    z-index: 1000;
+}
+
+/* Style the links inside the navigation bar */
+    .navbar a {
+        color: black;
+        text-align: center;
+        padding: 14px 20px;
+        text-decoration: none;
+    }
+
+    /* Change link color on hover */
+    .navbar a:hover {
+        background-color: #575757;
+    }
+
+/* Add some padding to the sections to account for the fixed navbar */
+.section {
+    padding: 80px 20px; /* Top padding to prevent overlap with the navbar */
+    margin-top: 40px;
+}
+
+/* Add a background to sections for visibility */
+.rates {
+    background-color: #f4f4f4;
+}
+
+.subjects {
+    background-color: #eaeaea;
+}
+
+.experience {
+    background-color: #dcdcdc;
+}
+
+.link {
+    padding: 50px 10px; /* Top padding to prevent overlap with the navbar */
+    margin-top: 40px;
+}
+
+.book {
+    text-align: center;
+    background-color: #807eff;
+    color: black;
+    font: 20px;
+}
+
+>>>>>>> ce8fc21 (first prototype)
